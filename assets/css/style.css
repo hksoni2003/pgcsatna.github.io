@@ -1,0 +1,205 @@
+:root{
+
+--primary:#003B71;
+--secondary:#7A1E3A;
+--gold:#C9A227;
+--light:#f7f9fc;
+--dark:#212529;
+
+}
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+body{
+
+font-family:'Open Sans',sans-serif;
+color:var(--dark);
+background:white;
+
+}
+
+h1,h2,h3,h4{
+
+font-family:'Poppins',sans-serif;
+
+}
+
+.container-custom{
+
+width:92%;
+max-width:1400px;
+margin:auto;
+
+}
+
+/* Top Bar */
+
+.top-bar{
+
+background:#05264d;
+color:white;
+font-size:13px;
+padding:8px 0;
+
+}
+
+.top-bar .container-custom{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+.right-top a{
+
+color:white;
+text-decoration:none;
+margin-left:15px;
+
+}
+
+/* Header */
+
+header{
+
+padding:20px 0;
+background:white;
+
+}
+
+.header-wrapper{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+}
+
+.logo img{
+
+height:90px;
+
+}
+
+.college-name{
+
+text-align:center;
+flex:1;
+
+}
+
+.college-name h1{
+
+font-size:34px;
+font-weight:700;
+color:var(--primary);
+
+}
+
+.college-name h2{
+
+font-size:18px;
+margin-top:5px;
+
+}
+
+.college-name p{
+
+color:#666;
+
+}
+
+.header-buttons .btn{
+
+padding:10px 22px;
+border-radius:50px;
+margin-left:10px;
+font-weight:600;
+
+}
+
+.admission{
+
+background:var(--primary);
+color:white;
+
+}
+
+.notice{
+
+background:var(--secondary);
+color:white;
+
+}
+
+/* Navigation */
+
+.custom-navbar{
+
+background:white;
+box-shadow:0 4px 20px rgba(0,0,0,.08);
+
+}
+
+.custom-navbar .nav-link{
+
+padding:22px 15px;
+font-weight:600;
+color:#222;
+
+}
+
+.custom-navbar .nav-link:hover{
+
+color:var(--primary);
+
+}
+
+.active{
+
+color:var(--primary)!important;
+
+}
+
+/* Hero */
+
+.hero{
+
+height:450px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(rgba(0,59,113,.75),
+rgba(0,59,113,.75)),
+url("../images/campus.jpg");
+
+background-size:cover;
+background-position:center;
+
+text-align:center;
+
+color:white;
+
+}
+
+.hero h1{
+
+font-size:54px;
+font-weight:700;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+margin-top:20px;
+
+}
