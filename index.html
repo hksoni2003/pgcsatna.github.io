@@ -3,64 +3,83 @@
 
 <head>
 
-    <!-- =======================================================
+    <!-- ==========================================================
         META
-    ======================================================== -->
+    =========================================================== -->
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
 
     <title>
+
         Pradhanmantri College of Excellence |
         Shaheed Padmdhar Singh Government Autonomous PG College, Satna
+
     </title>
 
     <meta name="description"
-        content="Pradhanmantri College of Excellence, Shaheed Padmdhar Singh Government Autonomous PG College, Satna">
+          content="Official Website of Pradhanmantri College of Excellence, Shaheed Padmdhar Singh Government Autonomous PG College, Satna">
 
     <meta name="keywords"
-        content="PMCoE Satna, Government Autonomous PG College Satna">
+          content="PMCoE Satna, Government College Satna, Autonomous College, Higher Education">
 
-    <!-- =======================================================
+    <meta name="author"
+          content="PMCoE Satna">
+
+    <!-- ==========================================================
         GOOGLE FONTS
-    ======================================================== -->
+    =========================================================== -->
 
     <link rel="preconnect"
-        href="https://fonts.googleapis.com">
+          href="https://fonts.googleapis.com">
 
     <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
 
-    <!-- =======================================================
+    <!-- ==========================================================
         BOOTSTRAP
-    ======================================================== -->
+    =========================================================== -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-        rel="stylesheet">
+          rel="stylesheet">
 
-    <!-- =======================================================
+    <!-- ==========================================================
+        FONT AWESOME
+    =========================================================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- ==========================================================
         CSS
-    ======================================================== -->
+    =========================================================== -->
 
     <link rel="stylesheet"
-        href="assets/css/style.css">
+          href="assets/css/style.css">
 
     <link rel="stylesheet"
-        href="assets/css/responsive.css">
+          href="assets/css/responsive.css">
 
 </head>
 
 <body>
 
-<!-- =======================================================
-TOP GOVERNMENT BAR
-======================================================= -->
 
-<div class="top-bar">
+
+<!-- ==========================================================
+TOP GOVERNMENT BAR
+========================================================== -->
+
+<section class="top-bar">
 
     <div class="container-custom">
 
@@ -72,6 +91,8 @@ TOP GOVERNMENT BAR
         </div>
 
         <div class="top-right">
+
+            <a href="#">RTI</a>
 
             <a href="#">A+</a>
 
@@ -87,12 +108,13 @@ TOP GOVERNMENT BAR
 
     </div>
 
-</div>
+</section>
 
 
-<!-- =======================================================
-MAIN HEADER
-======================================================= -->
+
+<!-- ==========================================================
+HEADER
+========================================================== -->
 
 <header class="main-header">
 
@@ -100,47 +122,53 @@ MAIN HEADER
 
         <div class="header-wrapper">
 
-            <!-- LEFT LOGO -->
+            <!-- Left Logo -->
 
             <div class="header-logo">
 
                 <img src="assets/logos/mp-government-logo.jpg"
-                    alt="Government Logo">
+                     alt="Government of Madhya Pradesh">
 
             </div>
 
 
-            <!-- COLLEGE NAME -->
+            <!-- College Name -->
 
             <div class="college-title">
 
+                <span class="title-top">
+
+                    PRADHANMANTRI COLLEGE OF EXCELLENCE
+
+                </span>
+
                 <h1>
 
-                    Pradhanmantri College of Excellence
+                    Shaheed Padmdhar Singh
 
                 </h1>
 
                 <h2>
 
-                    Shaheed Padmdhar Singh Government Autonomous PG College
+                    Government Autonomous PG College
 
                 </h2>
 
                 <p>
 
-                    Satna, Madhya Pradesh
+                    Satna • Madhya Pradesh
 
                 </p>
 
             </div>
 
 
-            <!-- RIGHT LOGO -->
+            <!-- Right Logo -->
 
             <div class="header-logo">
 
                 <img src="assets/logos/college-logo.jpg"
-                    alt="College Logo">
+                     alt="College Logo">
 
             </div>
 
@@ -152,37 +180,39 @@ MAIN HEADER
 
 
 
-<!-- =======================================================
+<!-- ==========================================================
 NAVIGATION
-======================================================= -->
+========================================================== -->
 
-<nav class="navbar navbar-expand-xl custom-navbar">
+<nav class="navbar navbar-expand-xl custom-navbar sticky-top">
 
     <div class="container-custom">
 
+        <a class="navbar-brand d-xl-none"
+           href="#">
+
+            PMCoE
+
+        </a>
+
         <button class="navbar-toggler"
-
-            type="button"
-
-            data-bs-toggle="collapse"
-
-            data-bs-target="#mainMenu">
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainMenu">
 
             <span class="navbar-toggler-icon"></span>
 
         </button>
 
         <div class="collapse navbar-collapse"
-
-            id="mainMenu">
+             id="mainMenu">
 
             <ul class="navbar-nav mx-auto">
 
                 <li class="nav-item">
 
                     <a class="nav-link active"
-
-                        href="#">
+                       href="#">
 
                         Home
 
@@ -190,11 +220,10 @@ NAVIGATION
 
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item dropdown">
 
-                    <a class="nav-link"
-
-                        href="#">
+                    <a class="nav-link dropdown-toggle"
+                       href="#">
 
                         About
 
@@ -202,11 +231,10 @@ NAVIGATION
 
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item dropdown">
 
-                    <a class="nav-link"
-
-                        href="#">
+                    <a class="nav-link dropdown-toggle"
+                       href="#">
 
                         Academics
 
@@ -217,8 +245,7 @@ NAVIGATION
                 <li class="nav-item">
 
                     <a class="nav-link"
-
-                        href="#">
+                       href="#">
 
                         Admissions
 
@@ -226,11 +253,10 @@ NAVIGATION
 
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item dropdown">
 
-                    <a class="nav-link"
-
-                        href="#">
+                    <a class="nav-link dropdown-toggle"
+                       href="#">
 
                         Departments
 
@@ -238,11 +264,10 @@ NAVIGATION
 
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item dropdown">
 
-                    <a class="nav-link"
-
-                        href="#">
+                    <a class="nav-link dropdown-toggle"
+                       href="#">
 
                         Research
 
@@ -253,8 +278,7 @@ NAVIGATION
                 <li class="nav-item">
 
                     <a class="nav-link"
-
-                        href="#">
+                       href="#">
 
                         IQAC
 
@@ -265,8 +289,7 @@ NAVIGATION
                 <li class="nav-item">
 
                     <a class="nav-link"
-
-                        href="#">
+                       href="#">
 
                         Student Corner
 
@@ -277,8 +300,7 @@ NAVIGATION
                 <li class="nav-item">
 
                     <a class="nav-link"
-
-                        href="#">
+                       href="#">
 
                         Facilities
 
@@ -289,8 +311,7 @@ NAVIGATION
                 <li class="nav-item">
 
                     <a class="nav-link"
-
-                        href="#">
+                       href="#">
 
                         Gallery
 
@@ -301,8 +322,7 @@ NAVIGATION
                 <li class="nav-item">
 
                     <a class="nav-link"
-
-                        href="#">
+                       href="#">
 
                         Downloads
 
@@ -313,8 +333,7 @@ NAVIGATION
                 <li class="nav-item">
 
                     <a class="nav-link"
-
-                        href="#">
+                       href="#">
 
                         Contact
 
@@ -324,6 +343,16 @@ NAVIGATION
 
             </ul>
 
+            <div class="nav-search">
+
+                <button class="search-btn">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </div>
+
         </div>
 
     </div>
@@ -332,18 +361,17 @@ NAVIGATION
 
 
 
-<!-- =======================================================
-HERO PLACEHOLDER
-Phase 2 Starts Here
-======================================================= -->
-
-<!-- =======================================================
+<!-- ==========================================================
+PART-2 STARTS BELOW THIS LINE
+DO NOT CLOSE BODY OR HTML
+========================================================== -->
+<!-- ==========================================================
 HERO SECTION
-======================================================= -->
+========================================================== -->
 
 <section class="hero-slider">
 
-    <!-- Slide 1 -->
+    <!-- ================= SLIDE 1 ================= -->
 
     <div class="hero-slide active"
          style="background-image:url('assets/hero/hero-campus-main.jpg');">
@@ -352,40 +380,43 @@ HERO SECTION
 
         <div class="container-custom hero-content">
 
-            <div class="hero-text">
+            <div class="hero-left">
 
-                <span class="hero-tag">
+                <span class="hero-subtitle">
 
-                    EXCELLENCE IN
+                    PRADHANMANTRI COLLEGE OF EXCELLENCE
 
                 </span>
 
                 <h1>
 
-                    Education.<br>
+                    Excellence in<br>
 
-                    Research.<br>
+                    Education,<br>
 
-                    Innovation.
+                    Research & Innovation
 
                 </h1>
 
                 <p>
 
-                    Nurturing knowledge, inspiring futures,
-                    transforming lives.
+                    Empowering students through quality education,
+                    research excellence, innovation, and holistic
+                    development for national and global leadership.
 
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#" class="btn hero-btn-primary">
+                    <a href="#"
+                       class="btn hero-btn-primary">
 
-                        Apply Now
+                        Admissions 2026
 
                     </a>
 
-                    <a href="#" class="btn hero-btn-outline">
+                    <a href="#"
+                       class="btn hero-btn-outline">
 
                         Explore Campus
 
@@ -399,25 +430,133 @@ HERO SECTION
 
     </div>
 
-    <!-- Slide 2 -->
+
+
+    <!-- ================= SLIDE 2 ================= -->
 
     <div class="hero-slide"
          style="background-image:url('assets/hero/hero-library.jpg');">
 
         <div class="hero-overlay"></div>
 
+        <div class="container-custom hero-content">
+
+            <div class="hero-left">
+
+                <span class="hero-subtitle">
+
+                    DIGITAL LIBRARY
+
+                </span>
+
+                <h1>
+
+                    Learning<br>
+
+                    Beyond<br>
+
+                    Classrooms
+
+                </h1>
+
+                <p>
+
+                    Modern digital library, journals,
+                    e-resources and research support for
+                    lifelong learning.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#"
+                       class="btn hero-btn-primary">
+
+                        Library
+
+                    </a>
+
+                    <a href="#"
+                       class="btn hero-btn-outline">
+
+                        e-Resources
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <!-- Slide 3 -->
+
+
+    <!-- ================= SLIDE 3 ================= -->
 
     <div class="hero-slide"
          style="background-image:url('assets/hero/hero-laboratory.jpg');">
 
         <div class="hero-overlay"></div>
 
+        <div class="container-custom hero-content">
+
+            <div class="hero-left">
+
+                <span class="hero-subtitle">
+
+                    RESEARCH & INNOVATION
+
+                </span>
+
+                <h1>
+
+                    Building<br>
+
+                    Future<br>
+
+                    Scientists
+
+                </h1>
+
+                <p>
+
+                    Advanced laboratories,
+                    interdisciplinary research,
+                    innovation and entrepreneurship.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#"
+                       class="btn hero-btn-primary">
+
+                        Research
+
+                    </a>
+
+                    <a href="#"
+                       class="btn hero-btn-outline">
+
+                        Innovation Cell
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <!-- Navigation -->
+
+
+    <!-- ==========================================================
+        HERO NAVIGATION
+    =========================================================== -->
 
     <button class="hero-prev">
 
@@ -431,7 +570,11 @@ HERO SECTION
 
     </button>
 
-    <!-- Indicators -->
+
+
+    <!-- ==========================================================
+        HERO INDICATORS
+    =========================================================== -->
 
     <div class="hero-dots">
 
@@ -443,56 +586,60 @@ HERO SECTION
 
     </div>
 
+
+
+    <!-- ==========================================================
+        SCROLL DOWN
+    =========================================================== -->
+
+    <div class="scroll-down">
+
+        <span>
+
+            Scroll
+
+        </span>
+
+        <div class="mouse">
+
+            <span></span>
+
+        </div>
+
+    </div>
+
 </section>
 
-<!-- =======================================================
-QUICK ACCESS
-======================================================= -->
 
-<section class="quick-access">
+
+<!-- ==========================================================
+ADMISSION HIGHLIGHT BAR
+========================================================== -->
+
+<section class="admission-bar">
 
     <div class="container-custom">
 
-        <div class="quick-grid">
+        <div class="admission-wrapper">
 
-            <div class="quick-card">
-                <div class="quick-icon">🎓</div>
-                <h4>Admissions</h4>
+            <div class="admission-left">
+
+                <span>
+
+                    🎓 Admissions Open for Academic Session 2026–27
+
+                </span>
+
             </div>
 
-            <div class="quick-card">
-                <div class="quick-icon">🏛</div>
-                <h4>Departments</h4>
-            </div>
+            <div class="admission-right">
 
-            <div class="quick-card">
-                <div class="quick-icon">📄</div>
-                <h4>Results</h4>
-            </div>
+                <a href="#">
 
-            <div class="quick-card">
-                <div class="quick-icon">📅</div>
-                <h4>Time Table</h4>
-            </div>
+                    Apply Online
 
-            <div class="quick-card">
-                <div class="quick-icon">⬇</div>
-                <h4>Downloads</h4>
-            </div>
+                </a>
 
-            <div class="quick-card">
-                <div class="quick-icon">🎖</div>
-                <h4>Scholarships</h4>
-            </div>
-
-            <div class="quick-card">
-                <div class="quick-icon">📚</div>
-                <h4>Library</h4>
-            </div>
-
-            <div class="quick-card">
-                <div class="quick-icon">👨‍🎓</div>
-                <h4>Student Portal</h4>
             </div>
 
         </div>
@@ -501,20 +648,1280 @@ QUICK ACCESS
 
 </section>
 
-<!-- =======================================================
+
+
+<!-- ==========================================================
+PART-3 STARTS BELOW
+========================================================== -->
+<!-- ==========================================================
+QUICK ACCESS
+========================================================== -->
+
+<section class="quick-access">
+
+    <div class="container-custom">
+
+        <div class="quick-grid">
+
+            <a href="#" class="quick-card">
+                <div class="quick-icon">🎓</div>
+                <h4>Admissions</h4>
+                <p>Apply Online</p>
+            </a>
+
+            <a href="#" class="quick-card">
+                <div class="quick-icon">🏛️</div>
+                <h4>Departments</h4>
+                <p>Academic Units</p>
+            </a>
+
+            <a href="#" class="quick-card">
+                <div class="quick-icon">📚</div>
+                <h4>Library</h4>
+                <p>Digital Library</p>
+            </a>
+
+            <a href="#" class="quick-card">
+                <div class="quick-icon">📄</div>
+                <h4>Results</h4>
+                <p>University Results</p>
+            </a>
+
+            <a href="#" class="quick-card">
+                <div class="quick-icon">🧪</div>
+                <h4>Research</h4>
+                <p>Innovation</p>
+            </a>
+
+            <a href="#" class="quick-card">
+                <div class="quick-icon">💼</div>
+                <h4>Placement</h4>
+                <p>Career Cell</p>
+            </a>
+
+            <a href="#" class="quick-card">
+                <div class="quick-icon">📥</div>
+                <h4>Downloads</h4>
+                <p>Forms & Notices</p>
+            </a>
+
+            <a href="#" class="quick-card">
+                <div class="quick-icon">🎯</div>
+                <h4>Student Portal</h4>
+                <p>Login</p>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+LATEST INFORMATION
+========================================================== -->
+
+<section class="information-section">
+
+    <div class="container-custom">
+
+        <div class="section-title">
+
+            <span>Campus Updates</span>
+
+            <h2>
+
+                Latest Information
+
+            </h2>
+
+        </div>
+
+        <div class="information-grid">
+
+            <!-- NEWS -->
+
+            <div class="info-card">
+
+                <div class="info-header">
+
+                    Latest News
+
+                </div>
+
+                <ul>
+
+                    <li>
+
+                        <span class="date">12 Jul</span>
+
+                        Admission Counselling Schedule Released
+
+                    </li>
+
+                    <li>
+
+                        <span class="date">10 Jul</span>
+
+                        National Conference on Biotechnology
+
+                    </li>
+
+                    <li>
+
+                        <span class="date">08 Jul</span>
+
+                        Campus Placement Drive Announced
+
+                    </li>
+
+                    <li>
+
+                        <span class="date">05 Jul</span>
+
+                        New Research Collaboration Signed
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- NOTIFICATION -->
+
+            <div class="info-card">
+
+                <div class="info-header">
+
+                    Notifications
+
+                </div>
+
+                <ul>
+
+                    <li>
+
+                        Internal Examination Schedule
+
+                    </li>
+
+                    <li>
+
+                        Scholarship Verification Notice
+
+                    </li>
+
+                    <li>
+
+                        NAAC Student Feedback Portal
+
+                    </li>
+
+                    <li>
+
+                        Practical Examination Guidelines
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- EVENTS -->
+
+            <div class="info-card">
+
+                <div class="info-header">
+
+                    Upcoming Events
+
+                </div>
+
+                <ul>
+
+                    <li>
+
+                        Orientation Programme
+
+                    </li>
+
+                    <li>
+
+                        International Yoga Day
+
+                    </li>
+
+                    <li>
+
+                        Faculty Development Programme
+
+                    </li>
+
+                    <li>
+
+                        Innovation & Startup Workshop
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- RESULTS -->
+
+            <div class="info-card">
+
+                <div class="info-header">
+
+                    Examination Results
+
+                </div>
+
+                <ul>
+
+                    <li>
+
+                        UG Semester Results
+
+                    </li>
+
+                    <li>
+
+                        PG Semester Results
+
+                    </li>
+
+                    <li>
+
+                        Ph.D. Entrance Results
+
+                    </li>
+
+                    <li>
+
+                        Supplementary Examination Results
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+PART-4 STARTS BELOW
+========================================================== -->
+<!-- ==========================================================
+ABOUT COLLEGE
+========================================================== -->
+
+<section class="about-section">
+
+    <div class="container-custom">
+
+        <div class="row align-items-center">
+
+            <!-- LEFT IMAGE -->
+
+            <div class="col-lg-6 mb-5 mb-lg-0">
+
+                <div class="about-image">
+
+                    <img src="assets/images/about-campus.jpg"
+                         alt="PMCoE Satna Campus">
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT CONTENT -->
+
+            <div class="col-lg-6">
+
+                <div class="section-title left">
+
+                    <span>About PMCoE Satna</span>
+
+                    <h2>
+
+                        A Legacy of Excellence in Higher Education
+
+                    </h2>
+
+                </div>
+
+                <p>
+
+                    Pradhanmantri College of Excellence, Shaheed Padmdhar
+                    Singh Government Autonomous PG College, Satna,
+                    is one of the premier autonomous institutions of
+                    Madhya Pradesh dedicated to academic excellence,
+                    research, innovation and holistic student
+                    development.
+
+                </p>
+
+                <p>
+
+                    The college offers undergraduate, postgraduate
+                    and doctoral programmes across Science,
+                    Commerce, Arts and emerging interdisciplinary
+                    fields while promoting research,
+                    entrepreneurship and skill development.
+
+                </p>
+
+                <a href="#"
+                   class="btn hero-btn-primary">
+
+                    Read More
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+PRINCIPAL'S MESSAGE
+========================================================== -->
+
+<section class="principal-section">
+
+    <div class="container-custom">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-4 text-center">
+
+                <img src="assets/faculty/principal.jpg"
+                     class="principal-photo"
+                     alt="Principal">
+
+            </div>
+
+            <div class="col-lg-8">
+
+                <div class="section-title left">
+
+                    <span>Leadership</span>
+
+                    <h2>
+
+                        Principal's Message
+
+                    </h2>
+
+                </div>
+
+                <blockquote>
+
+                    "Education is not merely the acquisition of
+                    knowledge but the development of character,
+                    innovation and responsibility towards society."
+
+                </blockquote>
+
+                <p>
+
+                    At PMCoE Satna we strive to create an
+                    environment where academic excellence,
+                    research culture and ethical values go hand in
+                    hand. Our mission is to prepare globally
+                    competent graduates capable of addressing
+                    contemporary challenges through knowledge,
+                    innovation and service.
+
+                </p>
+
+                <h5>
+
+                    Prof. (Name)
+
+                </h5>
+
+                <span>
+
+                    Principal
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+INSTITUTION AT A GLANCE
+========================================================== -->
+
+<section class="stats-section">
+
+    <div class="container-custom">
+
+        <div class="section-title">
+
+            <span>Institution at a Glance</span>
+
+            <h2>
+
+                Our Numbers Speak
+
+            </h2>
+
+        </div>
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <h3 class="counter"
+                    data-target="75">
+
+                    0
+
+                </h3>
+
+                <p>
+
+                    Years of Excellence
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3 class="counter"
+                    data-target="8000">
+
+                    0
+
+                </h3>
+
+                <p>
+
+                    Students
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3 class="counter"
+                    data-target="25">
+
+                    0
+
+                </h3>
+
+                <p>
+
+                    Departments
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3 class="counter"
+                    data-target="150">
+
+                    0
+
+                </h3>
+
+                <p>
+
+                    Faculty Members
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3 class="counter"
+                    data-target="200">
+
+                    0
+
+                </h3>
+
+                <p>
+
+                    Research Publications
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+VISION MISSION
+========================================================== -->
+
+<section class="vision-section">
+
+    <div class="container-custom">
+
+        <div class="row">
+
+            <div class="col-lg-6">
+
+                <div class="vision-card">
+
+                    <h3>
+
+                        Vision
+
+                    </h3>
+
+                    <p>
+
+                        To emerge as a nationally recognised centre
+                        of excellence in higher education,
+                        research, innovation and societal
+                        transformation.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="vision-card">
+
+                    <h3>
+
+                        Mission
+
+                    </h3>
+
+                    <p>
+
+                        To provide quality education,
+                        promote multidisciplinary research,
+                        encourage innovation,
+                        develop employability and
+                        nurture responsible citizens.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+WHY CHOOSE PMCOE
+========================================================== -->
+
+<section class="why-section">
+
+    <div class="container-custom">
+
+        <div class="section-title">
+
+            <span>Why PMCoE Satna</span>
+
+            <h2>
+
+                Excellence Beyond Classrooms
+
+            </h2>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="feature-card">
+
+                    <h4>
+
+                        Autonomous Institution
+
+                    </h4>
+
+                    <p>
+
+                        Academic flexibility with
+                        outcome-based education.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="feature-card">
+
+                    <h4>
+
+                        Research Ecosystem
+
+                    </h4>
+
+                    <p>
+
+                        Advanced laboratories and
+                        innovation-driven projects.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="feature-card">
+
+                    <h4>
+
+                        Skill Development
+
+                    </h4>
+
+                    <p>
+
+                        Industry exposure,
+                        internships and placement support.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="feature-card">
+
+                    <h4>
+
+                        Student Centric
+
+                    </h4>
+
+                    <p>
+
+                        Scholarships,
+                        mentoring,
+                        clubs and holistic development.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+PART-5 STARTS BELOW
+========================================================== -->
+<!-- ==========================================================
+ACADEMIC SCHOOLS
+========================================================== -->
+
+<section class="academics-section">
+
+    <div class="container-custom">
+
+        <div class="section-title">
+
+            <span>Academics</span>
+
+            <h2>Academic Schools</h2>
+
+        </div>
+
+        <div class="academic-grid">
+
+            <div class="academic-card">
+                <img src="assets/images/science.jpg" alt="">
+                <div class="academic-content">
+                    <h3>Faculty of Science</h3>
+                    <p>Biotechnology • Zoology • Botany • Chemistry • Physics • Mathematics • Computer Science</p>
+                </div>
+            </div>
+
+            <div class="academic-card">
+                <img src="assets/images/arts.jpg" alt="">
+                <div class="academic-content">
+                    <h3>Faculty of Arts</h3>
+                    <p>Humanities, Languages, Social Sciences and interdisciplinary learning.</p>
+                </div>
+            </div>
+
+            <div class="academic-card">
+                <img src="assets/images/commerce.jpg" alt="">
+                <div class="academic-content">
+                    <h3>Faculty of Commerce</h3>
+                    <p>Commerce, Management, Economics and Entrepreneurship.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+RESEARCH & INNOVATION
+========================================================== -->
+
+<section class="research-section">
+
+    <div class="container-custom">
+
+        <div class="section-title">
+
+            <span>Research</span>
+
+            <h2>Research & Innovation</h2>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-6">
+
+                <img src="assets/images/research.jpg"
+                     class="img-fluid rounded-4 shadow"
+                     alt="Research">
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <h3>
+
+                    Driving Innovation Through Research
+
+                </h3>
+
+                <p>
+
+                    PMCoE Satna promotes multidisciplinary research,
+                    innovation, startups, consultancy,
+                    publications and collaborations with leading
+                    institutions.
+
+                </p>
+
+                <div class="research-list">
+
+                    <div>✔ Research Laboratories</div>
+
+                    <div>✔ Innovation & Incubation Cell</div>
+
+                    <div>✔ Start-up Support</div>
+
+                    <div>✔ Research Publications</div>
+
+                    <div>✔ National & International Collaborations</div>
+
+                    <div>✔ Patents & Consultancy</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+STUDENT LIFE
+========================================================== -->
+
+<section class="student-life">
+
+    <div class="container-custom">
+
+        <div class="section-title">
+
+            <span>Campus Experience</span>
+
+            <h2>Student Life</h2>
+
+        </div>
+
+        <div class="life-grid">
+
+            <div class="life-card">
+
+                <img src="assets/images/sports.jpg" alt="">
+
+                <h4>
+
+                    Sports
+
+                </h4>
+
+            </div>
+
+            <div class="life-card">
+
+                <img src="assets/images/cultural.jpg" alt="">
+
+                <h4>
+
+                    Cultural Activities
+
+                </h4>
+
+            </div>
+
+            <div class="life-card">
+
+                <img src="assets/images/nss.jpg" alt="">
+
+                <h4>
+
+                    NSS & NCC
+
+                </h4>
+
+            </div>
+
+            <div class="life-card">
+
+                <img src="assets/images/clubs.jpg" alt="">
+
+                <h4>
+
+                    Student Clubs
+
+                </h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+GALLERY
+========================================================== -->
+
+<section class="gallery-section">
+
+    <div class="container-custom">
+
+        <div class="section-title">
+
+            <span>Gallery</span>
+
+            <h2>Campus Highlights</h2>
+
+        </div>
+
+        <div class="gallery-grid">
+
+            <img src="assets/gallery/gallery1.jpg" alt="">
+            <img src="assets/gallery/gallery2.jpg" alt="">
+            <img src="assets/gallery/gallery3.jpg" alt="">
+            <img src="assets/gallery/gallery4.jpg" alt="">
+            <img src="assets/gallery/gallery5.jpg" alt="">
+            <img src="assets/gallery/gallery6.jpg" alt="">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+ACCREDITATION
+========================================================== -->
+
+<section class="accreditation-section">
+
+    <div class="container-custom">
+
+        <div class="section-title">
+
+            <span>Recognition</span>
+
+            <h2>Accreditation & Collaborations</h2>
+
+        </div>
+
+        <div class="logo-grid">
+
+            <img src="assets/logos/ugc.png" alt="UGC">
+
+            <img src="assets/logos/naac.png" alt="NAAC">
+
+            <img src="assets/logos/nirf.png" alt="NIRF">
+
+            <img src="assets/logos/mpgov.png" alt="Government">
+
+            <img src="assets/logos/aishe.png" alt="AISHE">
+
+            <img src="assets/logos/abc.png" alt="ABC">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+CALL TO ACTION
+========================================================== -->
+
+<section class="cta-section">
+
+    <div class="container-custom">
+
+        <div class="cta-box">
+
+            <h2>
+
+                Begin Your Academic Journey With PMCoE Satna
+
+            </h2>
+
+            <p>
+
+                Admissions • Research • Innovation • Career Development
+
+            </p>
+
+            <a href="#"
+               class="btn hero-btn-primary">
+
+                Apply Now
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+PART-6 STARTS BELOW
+========================================================== -->
+<!-- ==========================================================
+FOOTER
+========================================================== -->
+
+<footer class="footer">
+
+    <div class="container-custom">
+
+        <div class="row">
+
+            <!-- ==========================================
+                 COLLEGE INFO
+            =========================================== -->
+
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <img src="assets/logos/college-logo.jpg"
+                     class="footer-logo"
+                     alt="College Logo">
+
+                <h3>
+
+                    Pradhanmantri College of Excellence
+
+                </h3>
+
+                <p>
+
+                    Shaheed Padmdhar Singh Government
+                    Autonomous PG College,
+                    Satna, Madhya Pradesh.
+
+                </p>
+
+                <p>
+
+                    Empowering students through quality education,
+                    research, innovation and community engagement.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- ==========================================
+                 QUICK LINKS
+            =========================================== -->
+
+            <div class="col-lg-2 col-md-6 mb-4">
+
+                <h4>
+
+                    Quick Links
+
+                </h4>
+
+                <ul class="footer-links">
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">About</a></li>
+
+                    <li><a href="#">Admissions</a></li>
+
+                    <li><a href="#">Academics</a></li>
+
+                    <li><a href="#">Departments</a></li>
+
+                    <li><a href="#">Research</a></li>
+
+                    <li><a href="#">IQAC</a></li>
+
+                    <li><a href="#">Downloads</a></li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- ==========================================
+                 IMPORTANT LINKS
+            =========================================== -->
+
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <h4>
+
+                    Important Links
+
+                </h4>
+
+                <ul class="footer-links">
+
+                    <li><a href="#">UGC</a></li>
+
+                    <li><a href="#">Higher Education MP</a></li>
+
+                    <li><a href="#">AISHE</a></li>
+
+                    <li><a href="#">National Scholarship Portal</a></li>
+
+                    <li><a href="#">ABC Portal</a></li>
+
+                    <li><a href="#">DigiLocker</a></li>
+
+                    <li><a href="#">Academic Bank of Credits</a></li>
+
+                    <li><a href="#">NIRF</a></li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- ==========================================
+                 CONTACT
+            =========================================== -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <h4>
+
+                    Contact Us
+
+                </h4>
+
+                <p>
+
+                    📍 Civil Lines,
+                    Satna,
+                    Madhya Pradesh
+
+                </p>
+
+                <p>
+
+                    ☎ +91-XXXXXXXXXX
+
+                </p>
+
+                <p>
+
+                    ✉ info@pmcoesatna.ac.in
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#">Facebook</a>
+
+                    <a href="#">Instagram</a>
+
+                    <a href="#">YouTube</a>
+
+                    <a href="#">LinkedIn</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- ==========================================================
+SUB FOOTER
+========================================================== -->
+
+<section class="sub-footer">
+
+    <div class="container-custom">
+
+        <div class="sub-footer-wrapper">
+
+            <div>
+
+                © 2026 Pradhanmantri College of Excellence,
+                Shaheed Padmdhar Singh Government Autonomous PG College,
+                Satna.
+
+                All Rights Reserved.
+
+            </div>
+
+            <div>
+
+                Visitor Count :
+
+                <span id="visitor-count">
+
+                    000001
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================================
+BACK TO TOP
+========================================================== -->
+
+<button id="backToTop">
+
+    ↑
+
+</button>
+
+
+
+<!-- ==========================================================
 BOOTSTRAP
-======================================================= -->
+========================================================== -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
 
 
-<!-- =======================================================
+<!-- ==========================================================
 CUSTOM JAVASCRIPT
-======================================================= -->
+========================================================== -->
 
 <script src="assets/js/main.js"></script>
 
 </body>
 
 </html>
+
+
+
+
+
+    
