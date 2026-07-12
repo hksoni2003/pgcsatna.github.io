@@ -341,34 +341,28 @@ Navigation
 /*=====================================================================
     EXTRA SMALL DEVICES
 =====================================================================*/
-
 @media (max-width:400px){
 
-.college-title h1{
+    .college-title h1{
+        font-size:1.05rem;
+    }
 
-    font-size:1.05rem;
+    .college-title h2{
+        font-size:.75rem;
+    }
 
-}
+    .college-title p{
+        font-size:.72rem;
+    }
 
-.college-title h2{
+    .header-logo img{
+        width:58px;
+        height:58px;
+    }
 
-    font-size:.75rem;
+}   /* <-- THIS WAS MISSING */
 
-}
 
-.college-title p{
-
-    font-size:.72rem;
-
-}
-
-.header-logo img{
-
-    width:58px;
-
-    height:58px;
-
-}
 /*==========================================================
 QUICK ACCESS
 ==========================================================*/
