@@ -1,10 +1,49 @@
 /*=========================================================
     PMCoE SATNA WEBSITE
-    Version 2.1
+    HERO SLIDER
 =========================================================*/
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
 
-    console.log("PMCoE Satna Website Loaded Successfully");
+    const slides = document.querySelectorAll(".hero-slide");
+    const dots = document.querySelectorAll(".dot");
+
+    let current = 0;
+
+    function showSlide(index){
+
+        slides.forEach(slide => slide.classList.remove("active"));
+        dots.forEach(dot => dot.classList.remove("active"));
+
+        slides[index].classList.add("active");
+        dots[index].classList.add("active");
+
+        current = index;
+
+    }
+
+    document.querySelector(".hero-next").onclick = () =>{
+
+        let next = (current + 1) % slides.length;
+
+        showSlide(next);
+
+    };
+
+    document.querySelector(".hero-prev").onclick = () =>{
+
+        let prev = (current - 1 + slides.length) % slides.length;
+
+        showSlide(prev);
+
+    };
+
+    setInterval(()=>{
+
+        let next = (current + 1) % slides.length;
+
+        showSlide(next);
+
+    },5000);
 
 });
