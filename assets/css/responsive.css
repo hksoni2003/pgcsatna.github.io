@@ -1,14 +1,56 @@
-/*=====================================================================
+/*====================================================================
     PMCoE SATNA WEBSITE
     RESPONSIVE STYLES
+    Version 3.0
 =====================================================================*/
 
 
-/*=====================================================================
+
+/*====================================================================
     LARGE DESKTOP
+    <= 1400px
 =====================================================================*/
 
 @media (max-width:1400px){
+
+    .container-custom{
+
+        width:94%;
+
+    }
+
+    .hero-left{
+
+        max-width:600px;
+
+    }
+
+    .hero-left h1{
+
+        font-size:64px;
+
+    }
+
+    h2{
+
+        font-size:36px;
+
+    }
+
+}
+
+
+
+/*====================================================================
+    LAPTOP
+    <= 1200px
+=====================================================================*/
+
+@media (max-width:1200px){
+
+    /*--------------------------------------------------------------
+        Container
+    --------------------------------------------------------------*/
 
     .container-custom{
 
@@ -16,47 +58,279 @@
 
     }
 
-}
 
 
-/*=====================================================================
-    LAPTOPS
-=====================================================================*/
+    /*--------------------------------------------------------------
+        Global Typography
+    --------------------------------------------------------------*/
 
-@media (max-width:1200px){
+    h1{
+
+        font-size:50px;
+
+    }
+
+    h2{
+
+        font-size:34px;
+
+    }
+
+    h3{
+
+        font-size:26px;
+
+    }
+
+
+
+    section{
+
+        padding:80px 0;
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Header
+    --------------------------------------------------------------*/
+
+    .header-wrapper{
+
+        grid-template-columns:120px 1fr 120px;
+
+        min-height:120px;
+
+    }
+
+    .header-logo img{
+
+        width:85px;
+
+        height:85px;
+
+    }
 
     .college-title h1{
 
-        font-size:2rem;
+        font-size:34px;
 
     }
 
     .college-title h2{
 
-        font-size:1.08rem;
+        font-size:20px;
+
+    }
+
+    .title-top{
+
+        font-size:14px;
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Navigation
+    --------------------------------------------------------------*/
+
+    .custom-navbar .nav-link{
+
+        padding:20px 12px;
+
+        font-size:14px;
+
+    }
+
+    .nav-search{
+
+        margin-left:10px;
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Hero
+    --------------------------------------------------------------*/
+
+    .hero-slider{
+
+        height:82vh;
+
+    }
+
+    .hero-left h1{
+
+        font-size:58px;
+
+    }
+
+    .hero-left p{
+
+        font-size:18px;
+
+    }
+
+    .hero-btn-primary,
+
+    .hero-btn-outline{
+
+        padding:14px 30px;
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Quick Access
+    --------------------------------------------------------------*/
+
+    .quick-grid{
+
+        grid-template-columns:repeat(4,1fr);
+
+        gap:20px;
+
+    }
+
+    .quick-card{
+
+        padding:30px 20px;
+
+    }
+
+    .quick-icon{
+
+        width:65px;
+
+        height:65px;
+
+        font-size:30px;
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Information Hub
+    --------------------------------------------------------------*/
+
+    .information-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Statistics
+    --------------------------------------------------------------*/
+
+    .stats-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Academic Section
+    --------------------------------------------------------------*/
+
+    .academic-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Student Life
+    --------------------------------------------------------------*/
+
+    .life-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Gallery
+    --------------------------------------------------------------*/
+
+    .gallery-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+
+
+    /*--------------------------------------------------------------
+        Footer
+    --------------------------------------------------------------*/
+
+    .footer{
+
+        padding-top:70px;
 
     }
 
 }
-
-
-/*=====================================================================
-    TABLETS
+/*====================================================================
+    TABLET LANDSCAPE
+    <= 992px
 =====================================================================*/
 
 @media (max-width:992px){
 
-/*------------------------------
-Top Bar
-------------------------------*/
+/*--------------------------------------------------------------
+    Global
+--------------------------------------------------------------*/
+
+section{
+
+    padding:70px 0;
+
+}
+
+.section-title{
+
+    margin-bottom:45px;
+
+}
+
+.section-title h2{
+
+    font-size:32px;
+
+}
+
+/*--------------------------------------------------------------
+    Top Bar
+--------------------------------------------------------------*/
+
+.top-bar{
+
+    padding:10px 0;
+
+}
 
 .top-bar .container-custom{
 
     flex-direction:column;
 
-    text-align:center;
+    gap:10px;
 
-    gap:8px;
+    text-align:center;
 
 }
 
@@ -66,19 +340,23 @@ Top Bar
 
     flex-wrap:wrap;
 
+    gap:15px;
+
 }
 
-/*------------------------------
-Header
-------------------------------*/
+/*--------------------------------------------------------------
+    Header
+--------------------------------------------------------------*/
 
 .header-wrapper{
 
     grid-template-columns:1fr;
 
-    gap:18px;
+    gap:20px;
 
-    padding:25px 0;
+    padding:20px 0;
+
+    text-align:center;
 
 }
 
@@ -90,70 +368,93 @@ Header
 
 .header-logo img{
 
-    width:80px;
+    width:82px;
 
-    height:80px;
+    height:82px;
 
 }
 
-.college-title{
+.title-top{
 
-    padding:0;
+    font-size:13px;
+
+    letter-spacing:1px;
 
 }
 
 .college-title h1{
 
-    font-size:1.75rem;
+    font-size:30px;
 
 }
 
 .college-title h2{
 
-    font-size:1rem;
+    font-size:19px;
 
 }
 
 .college-title p{
 
-    font-size:.95rem;
+    font-size:15px;
 
 }
 
-
-/*------------------------------
-Navigation
-------------------------------*/
+/*--------------------------------------------------------------
+    Navigation
+--------------------------------------------------------------*/
 
 .custom-navbar{
 
-    padding:8px 0;
+    padding:10px 0;
+
+}
+
+.custom-navbar .container-custom{
+
+    display:block;
+
+}
+
+.navbar-toggler{
+
+    float:right;
 
 }
 
 .custom-navbar .navbar-collapse{
 
-    background:#fff;
+    margin-top:15px;
 
-    margin-top:12px;
+    background:#ffffff;
 
-    border-radius:10px;
+    border-radius:15px;
 
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    padding:15px;
 
 }
 
 .custom-navbar .navbar-nav{
 
-    padding:12px 0;
+    align-items:flex-start;
+
+    gap:0;
+
+}
+
+.custom-navbar .nav-item{
+
+    width:100%;
 
 }
 
 .custom-navbar .nav-link{
 
-    padding:14px 18px;
+    width:100%;
 
-    text-align:center;
+    padding:14px 15px;
 
 }
 
@@ -163,30 +464,298 @@ Navigation
 
 }
 
+.nav-search{
 
-/*------------------------------
-Hero Placeholder
-------------------------------*/
+    display:none;
 
-.hero-placeholder{
+}
 
-    height:65vh;
+/*--------------------------------------------------------------
+    Hero
+--------------------------------------------------------------*/
+
+.hero-slider{
+
+    height:75vh;
+
+}
+
+.hero-content{
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+.hero-left{
+
+    max-width:100%;
+
+}
+
+.hero-left h1{
+
+    font-size:50px;
+
+}
+
+.hero-left p{
+
+    font-size:18px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-prev,
+
+.hero-next{
+
+    width:48px;
+
+    height:48px;
+
+    font-size:20px;
+
+}
+
+.scroll-down{
+
+    display:none;
+
+}
+
+/*--------------------------------------------------------------
+    Admission Bar
+--------------------------------------------------------------*/
+
+.admission-wrapper{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.admission-left{
+
+    font-size:17px;
+
+}
+
+.admission-right{
+
+    margin-top:10px;
+
+}
+
+/*--------------------------------------------------------------
+    Quick Access
+--------------------------------------------------------------*/
+
+.quick-access{
+
+    margin-top:-50px;
+
+}
+
+.quick-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+/*--------------------------------------------------------------
+    Information Hub
+--------------------------------------------------------------*/
+
+.information-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+/*--------------------------------------------------------------
+    About
+--------------------------------------------------------------*/
+
+.about-image{
+
+    margin-bottom:40px;
+
+}
+
+/*--------------------------------------------------------------
+    Principal
+--------------------------------------------------------------*/
+
+.principal-photo{
+
+    width:220px;
+
+    height:220px;
+
+    margin-bottom:35px;
+
+}
+
+/*--------------------------------------------------------------
+    Statistics
+--------------------------------------------------------------*/
+
+.stats-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.stat-card h3{
+
+    font-size:40px;
+
+}
+
+/*--------------------------------------------------------------
+    Vision
+--------------------------------------------------------------*/
+
+.vision-card{
+
+    margin-bottom:25px;
+
+}
+
+/*--------------------------------------------------------------
+    Why Choose
+--------------------------------------------------------------*/
+
+.feature-card{
+
+    margin-bottom:25px;
+
+}
+
+/*--------------------------------------------------------------
+    Academic Grid
+--------------------------------------------------------------*/
+
+.academic-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+/*--------------------------------------------------------------
+    Research
+--------------------------------------------------------------*/
+
+.research-section img{
+
+    margin-bottom:35px;
+
+}
+
+/*--------------------------------------------------------------
+    Student Life
+--------------------------------------------------------------*/
+
+.life-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+/*--------------------------------------------------------------
+    Gallery
+--------------------------------------------------------------*/
+
+.gallery-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+/*--------------------------------------------------------------
+    Accreditation
+--------------------------------------------------------------*/
+
+.logo-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+/*--------------------------------------------------------------
+    CTA
+--------------------------------------------------------------*/
+
+.cta-box{
+
+    padding:50px 30px;
+
+    text-align:center;
+
+}
+
+/*--------------------------------------------------------------
+    Footer
+--------------------------------------------------------------*/
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer-logo{
+
+    margin:0 auto 20px;
+
+}
+
+.footer-social{
+
+    justify-content:center;
+
+}
+
+.sub-footer-wrapper{
+
+    flex-direction:column;
+
+    gap:12px;
+
+    text-align:center;
 
 }
 
 }
 
-
-
-/*=====================================================================
-    MOBILE
+/*====================================================================
+    TABLET PORTRAIT
+    <= 768px
 =====================================================================*/
 
 @media (max-width:768px){
 
-body{
+/*--------------------------------------------------------------
+    Global
+--------------------------------------------------------------*/
 
-    font-size:15px;
+section{
+
+    padding:60px 0;
 
 }
 
@@ -196,28 +765,513 @@ body{
 
 }
 
-/*------------------------------
-Top Bar
-------------------------------*/
+h1{
 
-.top-bar{
+    font-size:40px;
+
+}
+
+h2{
+
+    font-size:28px;
+
+}
+
+h3{
+
+    font-size:22px;
+
+}
+
+p{
+
+    font-size:15px;
+
+}
+
+/*--------------------------------------------------------------
+    Top Bar
+--------------------------------------------------------------*/
+
+.top-left,
+
+.top-right{
 
     font-size:12px;
-
-    padding:10px 0;
 
 }
 
 .top-right{
 
+    gap:10px;
+
+}
+
+/*--------------------------------------------------------------
+    Header
+--------------------------------------------------------------*/
+
+.header-wrapper{
+
+    gap:15px;
+
+}
+
+.header-logo img{
+
+    width:70px;
+
+    height:70px;
+
+}
+
+.title-top{
+
+    font-size:12px;
+
+    letter-spacing:1px;
+
+}
+
+.college-title h1{
+
+    font-size:26px;
+
+    line-height:1.25;
+
+}
+
+.college-title h2{
+
+    font-size:17px;
+
+}
+
+.college-title p{
+
+    font-size:14px;
+
+}
+
+/*--------------------------------------------------------------
+    Hero
+--------------------------------------------------------------*/
+
+.hero-slider{
+
+    height:70vh;
+
+}
+
+.hero-left{
+
+    text-align:center;
+
+}
+
+.hero-left h1{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.hero-left p{
+
+    font-size:16px;
+
+    line-height:1.7;
+
+    margin-bottom:30px;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.hero-btn-primary,
+
+.hero-btn-outline{
+
+    width:240px;
+
+    text-align:center;
+
+}
+
+.hero-prev,
+
+.hero-next{
+
+    display:none;
+
+}
+
+.hero-dots{
+
+    bottom:20px;
+
+}
+
+/*--------------------------------------------------------------
+    Admission Bar
+--------------------------------------------------------------*/
+
+.admission-bar{
+
+    padding:15px 0;
+
+}
+
+.admission-left{
+
+    font-size:15px;
+
+}
+
+.admission-right a{
+
+    padding:10px 24px;
+
+}
+
+/*--------------------------------------------------------------
+    Quick Access
+--------------------------------------------------------------*/
+
+.quick-access{
+
+    margin-top:-40px;
+
+}
+
+.quick-grid{
+
+    grid-template-columns:1fr 1fr;
+
+    gap:15px;
+
+}
+
+.quick-card{
+
+    padding:25px 15px;
+
+}
+
+.quick-icon{
+
+    width:58px;
+
+    height:58px;
+
+    font-size:26px;
+
+}
+
+.quick-card h4{
+
+    font-size:18px;
+
+}
+
+.quick-card p{
+
+    font-size:14px;
+
+}
+
+/*--------------------------------------------------------------
+    Information Hub
+--------------------------------------------------------------*/
+
+.information-grid{
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+
+}
+
+.info-header{
+
+    font-size:17px;
+
+}
+
+/*--------------------------------------------------------------
+    About
+--------------------------------------------------------------*/
+
+.about-section p{
+
+    text-align:left;
+
+}
+
+/*--------------------------------------------------------------
+    Principal
+--------------------------------------------------------------*/
+
+.principal-photo{
+
+    width:180px;
+
+    height:180px;
+
+}
+
+.principal-section blockquote{
+
+    font-size:18px;
+
+    padding-left:18px;
+
+}
+
+/*--------------------------------------------------------------
+    Statistics
+--------------------------------------------------------------*/
+
+.stats-grid{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+.stat-card{
+
+    padding:28px 15px;
+
+}
+
+.stat-card h3{
+
+    font-size:34px;
+
+}
+
+/*--------------------------------------------------------------
+    Vision
+--------------------------------------------------------------*/
+
+.vision-card{
+
+    padding:30px;
+
+}
+
+/*--------------------------------------------------------------
+    Academics
+--------------------------------------------------------------*/
+
+.academic-grid{
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+
+}
+
+/*--------------------------------------------------------------
+    Student Life
+--------------------------------------------------------------*/
+
+.life-grid{
+
+    grid-template-columns:1fr 1fr;
+
+    gap:18px;
+
+}
+
+/*--------------------------------------------------------------
+    Gallery
+--------------------------------------------------------------*/
+
+.gallery-grid{
+
+    grid-template-columns:1fr 1fr;
+
     gap:12px;
 
 }
 
+/*--------------------------------------------------------------
+    Accreditation
+--------------------------------------------------------------*/
 
-/*------------------------------
-Header
-------------------------------*/
+.logo-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.logo-grid img{
+
+    max-width:90px;
+
+    margin:auto;
+
+}
+
+/*--------------------------------------------------------------
+    CTA
+--------------------------------------------------------------*/
+
+.cta-box{
+
+    padding:40px 20px;
+
+}
+
+.cta-box h2{
+
+    font-size:28px;
+
+}
+
+/*--------------------------------------------------------------
+    Footer
+--------------------------------------------------------------*/
+
+.footer{
+
+    padding-top:60px;
+
+}
+
+.footer h3{
+
+    font-size:22px;
+
+}
+
+.footer h4{
+
+    margin-top:20px;
+
+}
+
+.footer-links{
+
+    padding:0;
+
+}
+
+.footer-links li{
+
+    margin-bottom:10px;
+
+}
+
+.footer-social{
+
+    margin-top:20px;
+
+    gap:15px;
+
+}
+
+.sub-footer{
+
+    padding:15px 0;
+
+}
+
+.sub-footer-wrapper{
+
+    font-size:14px;
+
+}
+
+/*--------------------------------------------------------------
+    Back To Top
+--------------------------------------------------------------*/
+
+#backToTop{
+
+    width:45px;
+
+    height:45px;
+
+    right:20px;
+
+    bottom:20px;
+
+}
+
+}
+/*====================================================================
+    MOBILE DEVICES
+    <= 576px
+=====================================================================*/
+
+@media (max-width:576px){
+
+/*--------------------------------------------------------------
+    Global
+--------------------------------------------------------------*/
+
+.container-custom{
+
+    width:92%;
+
+}
+
+section{
+
+    padding:50px 0;
+
+}
+
+h1{
+
+    font-size:32px;
+
+}
+
+h2{
+
+    font-size:24px;
+
+}
+
+h3{
+
+    font-size:20px;
+
+}
+
+p{
+
+    font-size:15px;
+
+    line-height:1.7;
+
+}
+
+/*--------------------------------------------------------------
+    Top Bar
+--------------------------------------------------------------*/
+
+.top-bar{
+
+    display:none;
+
+}
+
+/*--------------------------------------------------------------
+    Header
+--------------------------------------------------------------*/
 
 .main-header{
 
@@ -225,17 +1279,31 @@ Header
 
 }
 
+.header-wrapper{
+
+    gap:12px;
+
+}
+
 .header-logo img{
 
-    width:72px;
+    width:58px;
 
-    height:72px;
+    height:58px;
+
+}
+
+.title-top{
+
+    font-size:11px;
+
+    letter-spacing:.5px;
 
 }
 
 .college-title h1{
 
-    font-size:1.45rem;
+    font-size:21px;
 
     line-height:1.3;
 
@@ -243,164 +1311,800 @@ Header
 
 .college-title h2{
 
-    font-size:.95rem;
+    font-size:15px;
 
-    line-height:1.5;
+    line-height:1.4;
 
 }
 
 .college-title p{
 
-    font-size:.88rem;
+    font-size:13px;
 
 }
 
+/*--------------------------------------------------------------
+    Navigation
+--------------------------------------------------------------*/
 
-/*------------------------------
-Navigation
-------------------------------*/
+.custom-navbar{
+
+    padding:8px 0;
+
+}
 
 .custom-navbar .nav-link{
 
     font-size:15px;
 
-    padding:12px 15px;
+    padding:13px 15px;
 
 }
 
-.hero-placeholder{
+/*--------------------------------------------------------------
+    Hero
+--------------------------------------------------------------*/
 
-    height:55vh;
+.hero-slider{
 
-}
-
-}
-
-
-
-/*=====================================================================
-    SMALL MOBILE
-=====================================================================*/
-
-@media (max-width:576px){
-
-.header-logo img{
-
-    width:65px;
-
-    height:65px;
+    height:62vh;
 
 }
 
-.college-title h1{
+.hero-left h1{
 
-    font-size:1.18rem;
+    font-size:30px;
 
-}
-
-.college-title h2{
-
-    font-size:.82rem;
+    line-height:1.25;
 
 }
 
-.college-title p{
+.hero-left p{
 
-    font-size:.78rem;
+    font-size:15px;
 
-}
-
-.top-right{
-
-    gap:8px;
+    margin-bottom:22px;
 
 }
 
-.top-right a{
+.hero-subtitle{
 
-    font-size:11px;
+    font-size:12px;
+
+    letter-spacing:2px;
 
 }
 
-.custom-navbar .nav-link{
+.hero-btn-primary,
+
+.hero-btn-outline{
+
+    width:100%;
+
+    max-width:260px;
+
+    padding:14px 20px;
+
+    font-size:15px;
+
+}
+
+.hero-dots{
+
+    bottom:15px;
+
+}
+
+.dot{
+
+    width:10px;
+
+    height:10px;
+
+}
+
+/*--------------------------------------------------------------
+    Admission Bar
+--------------------------------------------------------------*/
+
+.admission-bar{
+
+    padding:12px 0;
+
+}
+
+.admission-left{
 
     font-size:14px;
 
-}
-
-.hero-placeholder{
-
-    height:45vh;
+    line-height:1.5;
 
 }
 
-}
+.admission-right{
 
-
-
-/*=====================================================================
-    EXTRA SMALL DEVICES
-=====================================================================*/
-@media (max-width:400px){
-
-    .college-title h1{
-        font-size:1.05rem;
-    }
-
-    .college-title h2{
-        font-size:.75rem;
-    }
-
-    .college-title p{
-        font-size:.72rem;
-    }
-
-    .header-logo img{
-        width:58px;
-        height:58px;
-    }
-
-}   /* <-- THIS WAS MISSING */
-
-
-/*==========================================================
-QUICK ACCESS
-==========================================================*/
-
-@media(max-width:1200px){
-
-.quick-grid{
-
-    grid-template-columns:repeat(4,1fr);
+    width:100%;
 
 }
 
-}
+.admission-right a{
 
-@media(max-width:768px){
+    width:100%;
 
-.quick-grid{
-
-    grid-template-columns:repeat(2,1fr);
+    text-align:center;
 
 }
+
+/*--------------------------------------------------------------
+    Quick Access
+--------------------------------------------------------------*/
 
 .quick-access{
 
-    margin-top:0;
+    margin-top:-30px;
 
 }
-
-}
-
-@media(max-width:480px){
 
 .quick-grid{
 
     grid-template-columns:1fr;
 
+    gap:15px;
+
+}
+
+.quick-card{
+
+    padding:25px 18px;
+
+}
+
+/*--------------------------------------------------------------
+    Information Hub
+--------------------------------------------------------------*/
+
+.information-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.info-card{
+
+    border-radius:15px;
+
+}
+
+.info-card ul{
+
+    padding:15px;
+
+}
+
+.info-card li{
+
+    font-size:14px;
+
+}
+
+/*--------------------------------------------------------------
+    About
+--------------------------------------------------------------*/
+
+.about-image{
+
+    margin-bottom:25px;
+
+}
+
+.about-section p{
+
+    text-align:left;
+
+}
+
+/*--------------------------------------------------------------
+    Principal
+--------------------------------------------------------------*/
+
+.principal-photo{
+
+    width:160px;
+
+    height:160px;
+
+}
+
+.principal-section blockquote{
+
+    font-size:17px;
+
+    line-height:1.6;
+
+}
+
+/*--------------------------------------------------------------
+    Statistics
+--------------------------------------------------------------*/
+
+.stats-grid{
+
+    grid-template-columns:1fr;
+
+    gap:15px;
+
+}
+
+.stat-card{
+
+    padding:25px;
+
+}
+
+.stat-card h3{
+
+    font-size:32px;
+
+}
+
+/*--------------------------------------------------------------
+    Vision & Mission
+--------------------------------------------------------------*/
+
+.vision-card{
+
+    padding:25px;
+
+}
+
+/*--------------------------------------------------------------
+    Why Choose
+--------------------------------------------------------------*/
+
+.feature-card{
+
+    padding:28px 20px;
+
+}
+
+/*--------------------------------------------------------------
+    Academics
+--------------------------------------------------------------*/
+
+.academic-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+/*--------------------------------------------------------------
+    Research
+--------------------------------------------------------------*/
+
+.research-list{
+
+    margin-top:20px;
+
+}
+
+.research-list div{
+
+    margin-bottom:12px;
+
+}
+
+/*--------------------------------------------------------------
+    Student Life
+--------------------------------------------------------------*/
+
+.life-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+/*--------------------------------------------------------------
+    Gallery
+--------------------------------------------------------------*/
+
+.gallery-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.gallery-grid img{
+
+    border-radius:12px;
+
+}
+
+/*--------------------------------------------------------------
+    Accreditation
+--------------------------------------------------------------*/
+
+.logo-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+/*--------------------------------------------------------------
+    CTA
+--------------------------------------------------------------*/
+
+.cta-box{
+
+    padding:35px 20px;
+
+}
+
+.cta-box h2{
+
+    font-size:24px;
+
+}
+
+.cta-box .btn{
+
+    width:100%;
+
+    max-width:250px;
+
+}
+
+/*--------------------------------------------------------------
+    Footer
+--------------------------------------------------------------*/
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer-logo{
+
+    width:80px;
+
+    margin:0 auto 20px;
+
+}
+
+.footer-links{
+
+    margin-top:20px;
+
+}
+
+.footer-links li{
+
+    margin-bottom:10px;
+
+}
+
+.footer-social{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+.sub-footer{
+
+    text-align:center;
+
+}
+
+.sub-footer-wrapper{
+
+    gap:10px;
+
+    flex-direction:column;
+
+    font-size:13px;
+
+}
+
+/*--------------------------------------------------------------
+    Back To Top
+--------------------------------------------------------------*/
+
+#backToTop{
+
+    width:42px;
+
+    height:42px;
+
+    right:15px;
+
+    bottom:15px;
+
+    font-size:16px;
+
 }
 
 }
-    
+/*====================================================================
+    SMALL MOBILE DEVICES
+    <= 400px
+=====================================================================*/
+
+@media (max-width:400px){
+
+/*--------------------------------------------------------------
+    Global
+--------------------------------------------------------------*/
+
+.container-custom{
+
+    width:94%;
+
+}
+
+section{
+
+    padding:45px 0;
+
+}
+
+h1{
+
+    font-size:28px;
+
+}
+
+h2{
+
+    font-size:22px;
+
+}
+
+h3{
+
+    font-size:18px;
+
+}
+
+p{
+
+    font-size:14px;
+
+}
+
+/*--------------------------------------------------------------
+    Header
+--------------------------------------------------------------*/
+
+.header-logo img{
+
+    width:50px;
+
+    height:50px;
+
+}
+
+.title-top{
+
+    font-size:10px;
+
+}
+
+.college-title h1{
+
+    font-size:18px;
+
+}
+
+.college-title h2{
+
+    font-size:14px;
+
+}
+
+.college-title p{
+
+    font-size:12px;
+
+}
+
+/*--------------------------------------------------------------
+    Hero
+--------------------------------------------------------------*/
+
+.hero-slider{
+
+    height:58vh;
+
+}
+
+.hero-left h1{
+
+    font-size:26px;
+
+}
+
+.hero-left p{
+
+    font-size:14px;
+
+}
+
+.hero-btn-primary,
+
+.hero-btn-outline{
+
+    max-width:220px;
+
+    font-size:14px;
+
+    padding:12px 16px;
+
+}
+
+/*--------------------------------------------------------------
+    Quick Cards
+--------------------------------------------------------------*/
+
+.quick-card{
+
+    padding:20px 15px;
+
+}
+
+.quick-icon{
+
+    width:52px;
+
+    height:52px;
+
+    font-size:22px;
+
+}
+
+.quick-card h4{
+
+    font-size:17px;
+
+}
+
+/*--------------------------------------------------------------
+    Statistics
+--------------------------------------------------------------*/
+
+.stat-card{
+
+    padding:20px;
+
+}
+
+.stat-card h3{
+
+    font-size:28px;
+
+}
+
+/*--------------------------------------------------------------
+    CTA
+--------------------------------------------------------------*/
+
+.cta-box{
+
+    padding:28px 16px;
+
+}
+
+.cta-box h2{
+
+    font-size:22px;
+
+}
+
+}
+
+
+
+/*====================================================================
+    LANDSCAPE PHONES
+=====================================================================*/
+
+@media (max-height:500px) and (orientation:landscape){
+
+.hero-slider{
+
+    height:100vh;
+
+}
+
+.hero-left h1{
+
+    font-size:36px;
+
+}
+
+.hero-left p{
+
+    margin-bottom:20px;
+
+}
+
+.scroll-down{
+
+    display:none;
+
+}
+
+}
+
+
+
+/*====================================================================
+    PRINT STYLES
+=====================================================================*/
+
+@media print{
+
+.top-bar,
+
+.custom-navbar,
+
+.hero-prev,
+
+.hero-next,
+
+.hero-dots,
+
+.scroll-down,
+
+#backToTop,
+
+.footer-social,
+
+.admission-bar{
+
+    display:none !important;
+
+}
+
+body{
+
+    background:#ffffff;
+
+    color:#000000;
+
+}
+
+.hero-slider{
+
+    height:auto;
+
+    min-height:250px;
+
+}
+
+section{
+
+    padding:25px 0;
+
+    page-break-inside:avoid;
+
+}
+
+a{
+
+    color:#000000;
+
+    text-decoration:none;
+
+}
+
+}
+
+
+
+/*====================================================================
+    REDUCED MOTION
+=====================================================================*/
+
+@media (prefers-reduced-motion:reduce){
+
+*{
+
+    animation:none !important;
+
+    transition:none !important;
+
+    scroll-behavior:auto !important;
+
+}
+
+}
+
+
+
+/*====================================================================
+    HIGH CONTRAST MODE
+=====================================================================*/
+
+@media (prefers-contrast:more){
+
+.hero-overlay{
+
+    background:rgba(0,0,0,.82);
+
+}
+
+.quick-card,
+
+.info-card,
+
+.feature-card,
+
+.vision-card{
+
+    border:2px solid var(--primary);
+
+}
+
+}
+
+
+
+/*====================================================================
+    FINAL RESPONSIVE UTILITIES
+=====================================================================*/
+
+.img-fluid{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+.text-center-mobile{
+
+    text-align:inherit;
+
+}
+
+@media(max-width:768px){
+
+.text-center-mobile{
+
+    text-align:center;
+
+}
+
+}
+
+.hide-mobile{
+
+    display:block;
+
+}
+
+.show-mobile{
+
+    display:none;
+
+}
+
+@media(max-width:768px){
+
+.hide-mobile{
+
+    display:none;
+
+}
+
+.show-mobile{
+
+    display:block;
+
+}
+
 }
