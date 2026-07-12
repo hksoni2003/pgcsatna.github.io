@@ -369,5 +369,44 @@ Navigation
     height:58px;
 
 }
+/*==========================================================
+QUICK ACCESS
+==========================================================*/
 
+@media(max-width:1200px){
+
+.quick-grid{
+
+    grid-template-columns:repeat(4,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.quick-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.quick-access{
+
+    margin-top:0;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.quick-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+    
 }
