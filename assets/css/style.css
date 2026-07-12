@@ -698,3 +698,86 @@ HERO
     background:#D8B45C;
 
 }
+/*==========================================================
+QUICK ACCESS
+==========================================================*/
+
+.quick-access{
+
+    position:relative;
+
+    margin-top:-70px;
+
+    z-index:200;
+
+}
+
+.quick-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(8,1fr);
+
+    background:#ffffff;
+
+    border-radius:16px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.10);
+
+    overflow:hidden;
+
+}
+
+.quick-card{
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    border-right:1px solid #ececec;
+
+}
+
+.quick-card:last-child{
+
+    border-right:none;
+
+}
+
+.quick-card:hover{
+
+    background:#003B71;
+
+    transform:translateY(-6px);
+
+}
+
+.quick-icon{
+
+    font-size:34px;
+
+    margin-bottom:18px;
+
+}
+
+.quick-card h4{
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:#222;
+
+    transition:.35s;
+
+}
+
+.quick-card:hover h4{
+
+    color:white;
+
+}
